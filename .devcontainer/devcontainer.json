@@ -1,0 +1,14 @@
+{
+    "name": "Simple HTML Project",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:0-alpine",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.html-language-features"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    }
+}
